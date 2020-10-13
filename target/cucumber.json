@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-12T21:24:09.235Z",
+        "line": 5,
+        "name": "User is able to edit My Profile",
+        "description": "",
+        "id": "salesforce-login-functionality-test;user-is-able-to-edit-my-profile",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13470000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am logged in sucessfully",
+            "match": {
+              "location": "com.qe.stepDef.HomepageTest.I_am_logged_in_sucessfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1530000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on user menu and click My profile option",
+            "match": {
+              "location": "com.qe.stepDef.HomepageTest.i_click_on_user_menu_and_click_My_profile_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 382000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on edit profile button to edit contact information",
+            "match": {
+              "location": "com.qe.stepDef.HomepageTest.i_click_on_edit_profile_button_to_edit_contact_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1848000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on About tab and enter Lastname and click on save all button",
+            "match": {
+              "location": "com.qe.stepDef.HomepageTest.i_click_on_About_tab_and_enter_Lastname_and_click_on_save_all_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate lastname whether it is saved or not",
+            "match": {
+              "location": "com.qe.stepDef.HomepageTest.i_validate_lastname_whether_it_is_saved_or_not()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          }
+        ]
+      }
+    ],
+    "name": "Salesforce Login functionality test",
+    "description": "",
+    "id": "salesforce-login-functionality-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featurefiles/Salesforce.feature",
+    "tags": []
+  }
+]

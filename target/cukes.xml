@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.718">
+<testcase classname="Salesforce Login functionality test" name="User is able to edit My Profile" time="17.489">
+<system-out><![CDATA[Given I am logged in sucessfully............................................passed
+When I click on user menu and click My profile option.......................passed
+And I click on edit profile button to edit contact information..............passed
+Then I click on About tab and enter Lastname and click on save all button...passed
+And I validate lastname whether it is saved or not..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,7 @@
+
+2020-10-12 14:20:17,760  INFO [main] HomepageTest:28 - logged in successfully!
+2020-10-12 14:20:19,800  INFO [main] HomepageTest:36 - Naviagted to profile page.
+2020-10-12 14:20:22,566  INFO [main] HomepageTest:52 - Lastname is updated.
+2020-10-12 14:24:22,800  INFO [main] HomepageTest:28 - logged in successfully!
+2020-10-12 14:24:24,334  INFO [main] HomepageTest:36 - Naviagted to profile page.
+2020-10-12 14:24:26,560  INFO [main] HomepageTest:52 - Lastname is updated.
